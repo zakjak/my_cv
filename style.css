@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+
+/* GENERAL STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-text{
+    color: #4183df;
+    font-size: 1.4rem;
+    margin: .5rem 0;
+}
+
+.sub_heading-text{
+    padding: .5em 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.text-small{
+    font-size: .9em;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+body{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+/* END OF GENERAL STYLES */
+
+.container{
+    padding: 1rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: .6em;
+    border-bottom: 1px solid gray;
+}
+
+header .contact{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 3px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 67% 33%;
+}
+
+/* LEFT SECTION */
+
+.left{
+    padding: 1em 2em;
+}
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.goal{
+    width: 70%;
+    text-align: justify;
+}
+
+.right{
+    border-left: 1px solid gray;
+    padding: 0 10px;
+}

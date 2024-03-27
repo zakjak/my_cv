@@ -73,6 +73,14 @@ section{
     grid-template-columns: 67% 33%;
 }
 
+.gap{
+    margin-top: 1rem;
+}
+
+.sub_bullet{
+    list-style-type: disc;
+}
+
 /* LEFT SECTION */
 
 .left{
